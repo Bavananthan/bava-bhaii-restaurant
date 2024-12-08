@@ -8,16 +8,17 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row sm:justify-between sm:space-y-0 space-y-4">
           {/* Branding/Name */}
           <div className="text-xl font-bold">
-            <Link href="/">Armstrong Bavananthan - Software Engineer</Link>
-            <p className="text-sm text-gray-400 mt-2">Building scalable and efficient solutions</p>
+            <Link href="/">Armstrong Bavananthan </Link>
+            <p className="text-sm text-gray-400 mt-2"> Director of Bava Bhaii Restaurant</p>
+            <p className="text-sm text-gray-400 mt-2">Enjoy With Your Foods</p>
           </div>
 
           {/* Navigation Links */}
           <div className="flex space-x-6">
             <Link href="/" className="hover:text-gray-400">Home</Link>
-            <Link href="/about" className="hover:text-gray-400">About</Link>
-            <Link href="/projects" className="hover:text-gray-400">Projects</Link>
-            <Link href="/skills" className="hover:text-gray-400">Skills</Link>
+            <Link href="/about" className="hover:text-gray-400">Menu</Link>
+            <Link href="/projects" className="hover:text-gray-400">Items</Link>
+            <Link href="/skills" className="hover:text-gray-400">Category</Link>
             <Link href="/contact" className="hover:text-gray-400">Contact</Link>
           </div>
         </div>

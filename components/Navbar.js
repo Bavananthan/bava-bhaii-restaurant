@@ -46,14 +46,14 @@ export default function Navbar() {
           <Link href="/" className="text-orange-500 hover:text-orange-800">
             Home
           </Link>
-          <Link href="/item" className="text-orange-500 hover:text-orange-800">
-            Item
+          <Link href="/menu" className="text-orange-500 hover:text-orange-800">
+            Menu
           </Link>
          
-          <Link href="/projects" className=" text-orange-500 hover:text-orange-800 ">Category</Link>
-          <Link href="/skills" className="text-orange-500 hover:text-orange-800/">Contact</Link>
+          <Link href="/item" className=" text-orange-500 hover:text-orange-800 ">Items</Link>
+          <Link href="/skills" className="text-orange-500 hover:text-orange-800/">Category</Link>
           <Link href="/contact" className="text-orange-500 hover:text-orange-800">
-            Help
+            Contact
           </Link>
         </div>
       </div>
@@ -70,20 +70,20 @@ export default function Navbar() {
             Home
           </Link>
           <Link
+            href="/menu"
+            className="block text-orange-500 hover:text-orange-800"
+          >
+            Menu
+          </Link>
+          <Link
             href="/item"
             className="block text-orange-500 hover:text-orange-800"
           >
-            Item
+            Items
           </Link>
-          
           <Link href="/projects" className="block text-orange-500 hover:text-orange-800">Category</Link>
           <Link href="/skills" className="block text-orange-500 hover:text-orange-800">Contact</Link>
-          <Link
-            href="/contact"
-            className="block text-orange-500 hover:text-orange-800"
-          >
-            Help
-          </Link>
+          
         </div>
       </div>
     </nav>

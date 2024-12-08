@@ -23,7 +23,7 @@ function ItemList() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
        
         {items.map((item) => (
-          <div key={item.MenuItemID} className="mb-4 bg-orange-200 shadow-md rounded-lg">
+          <div key={item.MenuItemID} className="mb-4 bg-white shadow-md rounded-lg overflow-hidden">
             <img src={item.ImageURL} alt={item.Title.en} className="w-full object-cover rounded-md"></img>
             <div className="p-4">
             <h3 className="text-sm font-semibold text-black">{item.Title.en}</h3>
